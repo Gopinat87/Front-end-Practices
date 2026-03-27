@@ -1,0 +1,90 @@
+body{
+    background:url(/images/pinterest\ bg.png);
+}
+.Pinterest{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: white;
+    width: 400px;
+    border-radius: 30px;
+    padding-top: 0%;
+    padding-left: 80px ;
+    padding-bottom: 10px;
+    height: 700px;
+}
+#logo{
+    margin-left: 120px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+h2{
+ margin-top: 0%;
+ font-weight: 300;
+ text-decoration: solid;
+ font-size: 30px;
+}
+.Pinterest input{
+    display: block;
+}
+input{
+    margin: 10px;
+    padding: 12px;
+    width: 200px;
+    border-radius: 15px;
+}
+.sumbit button{
+   background-color: red;
+   color: white;
+   border-radius: 10px;
+   width: 230px;
+   padding: 10px;
+   text-decoration: solid;
+   font-size: large;
+   font-weight: 200;
+   font-family: 'Times New Roman', Times, serif;
+   border: none;
+
+}
+h3{
+    margin-left: 80px;
+    text-transform: uppercase;
+    font-size: medium;
+}
+.facebook button{
+    background-color: #1877F2;
+    color: white;
+    border-radius: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: weight 300px;
+    text-align: end;
+    border: none;
+    padding: 7px;
+    
+    }
+.facebook img{
+    border-radius: 30px;
+    margin-right: 20px;
+}
+.google button{
+    background-color: white;
+    border-radius: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 200px;
+    margin:10px 0px 10px;
+    padding: 5px;
+    }
+    .google img{
+        margin-right: 32px;
+        margin-top: 7px;
+        border-radius: 30px;
+    }
+    .terms {
+        margin: 0;
+        padding: 0;
+    }
+    .not{
+        padding: 0;
+        margin: 0;
+        
+    }
