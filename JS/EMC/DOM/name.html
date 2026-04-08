@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 id="name">Name</h1>
+    </div>
+    <button onclick="gopin(event)">Gopinath</button>
+    <button onclick="gopin(event)">Yuvaraj</button>
+    <button onclick="gopin(event)">Dhinesh</button>
+    
+
+    <script>
+        function gopin(){
+            document.getElementById('name').innerHTML = event.target.innerHTML
+        }
+
+        // function yuvir(){
+        //     document.getElementById('name').innerHTML = event.target.innerHTML
+        // }
+        // function dhin(){
+        //     document.getElementById('name').innerHTML = event.target.innerHTML
+        // }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="h1">Hello World</h2>
+    <div id="change"><button onclick="change()">Change</button></div>
+
+    <label>First Name</label>
+    <input type="text" id="fname"> <br> <br>
+
+    <label >Last Name</label>
+    <input type="text" id="lname">
+    <br> 
+    <br>
+    <button id="submit" onclick="result()">Submit</button>
+    <br><br>
+    <h3 id="total"></h3>
+
+    <input type="text" id="1">
+    <input type="text" id="2">
+    <button onclick="add()"><span id="add">Add</span></button>
+    <h3 id="total1"></h3>
+
+    <script>
+        function change(){
+           var b =  document.getElementById('h1')
+           b.innerText = "Bye World"
+           console.log(b.innerHTML = "bye")
+        }
+
+        function result(){
+           var fname=  document.getElementById('fname').value
+           var lname = document.getElementById('lname').value
+           
+            document.getElementById('total').innerHTML = `hi ${fname} ${lname}`
+        }
+        function add() {
+            var f1 = Number(document.getElementById('1').value)        
+            var f2 = Number(document.getElementById('2').value) 
+            var total = f1 + f2 
+            document.getElementById('total1').innerHTML = total
+        }
+    </script>
+</body>
+</html>
