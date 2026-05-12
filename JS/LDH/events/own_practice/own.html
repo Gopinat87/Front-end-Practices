@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Own practice</title>
+    <link rel="stylesheet" href="own.css">
+</head>
+<body>
+    <div id="para1">Lorem ipsum dolor sit amet.</div>
+    <div id="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, qui?</div>
+    <div id="para3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, dolorum praesentium. Delectus cupiditate deleniti esse!</div>
+    <div class="btn">
+        <button id="btn1" onclick="document.getElementById('para1').innerHTML= 'Successfully Paragraph 1 changed'" >Click1</button>
+        <button id="btn2">click2</button>
+        <button id="btn3">click3</button>
+    </div>
+    
+    <div>
+        <label for="firstname">First Name :</label>
+        <input id="firstname" type="text">
+    </div>
+    <div>
+        <label for="lastname">Last Name</label>
+        <input id="lastname" type="text">
+    </div>
+
+    <div>
+        <button id="namejoin">Join</button>
+    </div>
+    <div id="joined">
+
+    </div>
+
+    <div>
+        <label for="">Enter Your Current Year</label>
+        <input type="number" id="year">
+    </div>
+    <button id="lap">Submit</button>
+    <div id="result"></div>
+
+
+    <script>
+        document.getElementById('btn2').addEventListener('click',function(){
+            document.getElementById('para2').innerHTML= "Paragraph 2 is successfully changed"
+        })
+    </script>
+
+    <script src="own.js">
+    </script>
+</body>
+</html>
+

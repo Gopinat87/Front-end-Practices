@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="dom1.js" defer ></script>
+    <link rel="stylesheet" href="dom1.css">
+</head> 
+<body>
+    <p id="para1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, eaque.</p>
+    <p id="para2">Lorem ipsum dolor sit.</p>
+    <p id="para3">Lorem, ipsum.</p>
+
+    <button id ="submit1" onclick="document.getElementById('para1').innerHTML = '<b> para 1 changed </b> '">Submit1</button > <br> 
+    <button id="submit2" onclick="textc_change2()">submit 2</button> <br>
+    <button id="submit3" onclick="text_change3()">submit 3 </button>
+
+
+    <p id="date"></p>
+    <p id="hide">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, labore?</p>
+<input type="button" value="Hide" onclick="document.getElementById('hide').style.visibility='hidden'" >
+<input type="button" value="visible" onclick="document.getElementById('hide').style.visibility='visible'" > <br>
+
+<h5 id="click">H5 Paragraph</h5>
+<button id="click1"> Click Here</button>
+
+
+
+
+<script>
+    function textc_change2(){
+        document.getElementById('para2').innerHTML = 'para 2 changes success'
+        }
+    document.getElementById("date").innerHTML = "Date: " + Date();
+    
+</script>
+</body>
+</html>
+
